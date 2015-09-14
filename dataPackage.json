@@ -1,0 +1,80 @@
+{
+  "title": "Datos de grupos de medellin recolectados por Casa de las Estrategias",
+  "name": "grupos_casa_estrategias",
+  "description": "Datos de grupos de medellin recolectados por Casa de las Estrategias",
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "id": "CC-BY-SA-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "grupos_medellin_casa_estrategias_filtrado.csv",
+      "path": "data/grupos_medellin_casa_estrategias_filtrado.csv",
+      "mediatype": "text/csv",
+      "bytes": 138782,
+      "schema": {
+        "fields": [
+          {
+            "name": "Nombre de la Banda o nombre de la persona si es solista.",
+            "type": "string"
+          },
+          {
+            "name": "Municipio donde ensayan o se encuentran frecuentemente",
+            "type": "string"
+          },
+          {
+            "name": "Correo",
+            "type": "string"
+          },
+          {
+            "name": "Twitter",
+            "type": "string"
+          },
+          {
+            "name": "FB",
+            "type": "string"
+          },
+          {
+            "name": "Reverbnation",
+            "type": "number"
+          },
+          {
+            "name": "Youtube",
+            "type": "string"
+          },
+          {
+            "name": "Link 1",
+            "type": "string"
+          },
+          {
+            "name": "Link 2",
+            "type": "number"
+          },
+          {
+            "name": "Comuna de encuentro o ensayo",
+            "type": "number"
+          },
+          {
+            "name": "Género",
+            "type": "string"
+          },
+          {
+            "name": "Subgénero",
+            "type": "string"
+          },
+          {
+            "name": "Subgénero 2",
+            "type": "number"
+          },
+          {
+            "name": "Inicios",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
